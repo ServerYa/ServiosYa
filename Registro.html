@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        
+        <title>Registracion</title>
+        <link href="css/bootstrap.min.css" rel="stylesheet">
+        <link href="css/estilos.css" rel="stylesheet">
+
+    </head>
+
+    <body>
+        <nav class="navbar navbar-default navbar-static-top" >
+            <div class="container">
+
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+
+                        <span class="sr-only">Este boton cambia la barra de navegacion</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+
+                    </button>
+
+                    <a class="navbar-brand" href="index.html"> <span class="glyphicon glyphicon-shopping-cart" aria-hidden="true"></span> ServiciosYa</a>
+
+                </div>
+
+                <div  id="navbar" class="navbar-collapse collapse">
+                    <ul class="nav navbar-nav">
+
+                        <li> <a href="index.html"><span class="glyphicon glyphicon-home" aria-hidden="true"></span> Inicio</a></li>
+                        <li><a href="#"><span class="glyphicon glyphicon-lock" aria-hidden="true"></span> Contacto</a></li>
+                        <li> <a href="#"><span class="glyphicon glyphicon-bookmark" aria-hidden="true"></span>Acerca de</a></li>
+                       <li class="dropdown" >
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><span class="glyphicon glyphicon-bell" aria-hidden="true"></span> Nosotros<span class="caret"></span></a>
+                            <ul class="dropdown-menu">
+                                <li><a href="Mision.html">Mision</a></li>
+                                <li><a href="Vision.html">Vision</a></li>
+                                <li><a href="Construccion.html">Personal</a></li>
+                                <li role="separator" class="divider"></li>
+                                <li class="dropdown-header">Descripcion</li>
+                                <li><a href="Construccion.html">¿ Que somos ?</a></li>
+                                <li><a href="Construccion.html">¿ Que tipo de servicio brindamos ?</a></li>
+                            </ul>
+
+
+
+                        </li>
+                    </ul>
+
+                    <ul class="nav navbar-nav navbar-right">
+
+                        <li> <a href="InicioSession.html"> <span class="glyphicon glyphicon-user" aria-hidden="true"></span>Inicia Seccion</a></li>
+                        <li><a href="Registro.html"><span class="glyphicon glyphicon-log-in" aria-hidden="true"></span> Registrate</a></li>
+                        
+
+                    </ul>
+
+                </div>
+
+            </div>
+            </nav>
+            
+        
+        
+        
+        <div class="conteiner">
+                <div class="jumbotron">
+                    
+                    <h1 class="text-center">Formulario de registro</h1>
+                </div>
+                
+                
+            </div>
+        
+        <div class="conteiner">
+            
+            <div class="row"></div>
+            
+            <div class="col-md-6" class="text-center">
+                <div class="panel panel-default">
+                    
+                    <div class="panel-heading">
+                        
+                        <h3 class="panel-title">
+                            
+                            Instrucciones
+                        </h3>
+                    </div>
+                    
+                    <div class="panel-body">
+                        
+                        <br>
+                        <p class="text-justify">
+                            Para obtener nuestro servicio introduce un 
+                            nombre de usuario , tu email y contraseña.
+                            El email que escribas debe ser real ya que lo necesitaras 
+                            para gestionar tu cuenta, te recomendamos que utilices una contraseña
+                            con letras minusculas, mayusculas, signos y numeros.
+                            
+                        </p>
+                        
+                        <br>
+                        
+                        <a href="InicioSeccion.html">
+                            ¿Ya tienes cuenta ?
+                        </a>
+                        <br>
+                        <br>
+                        <a>
+                            ¿Olvidaste la contraseña ? 
+                        </a>
+                        
+                    </div>
+                </div>
+                
+            </div>
+            
+            <div class="col-md-6">
+                 <div class="panel panel-default">
+                    
+                    <div class="panel-heading">
+                        
+                        <h3 class="panel-title" >
+                            Introduce tus datos
+                            
+                        </h3>
+                    </div>
+                    
+                    <div class="panel-body">
+                        
+                        <form role="form">
+                            <div class="form-group">
+                                
+                                <label><span class="glyphicon glyphicon-user" aria-hidden="true"></span> Nombre de Usuario</label>
+                                
+                                <input type="text" class="form-control">
+                                
+                                
+                            </div>
+                            <div class="form-group">
+                                
+                                <label><span class="glyphicon glyphicon-log-in" aria-hidden="true"></span> Email</label>
+                                
+                                
+                                <input type="email" class="form-control">
+                                
+                            </div>
+                            <div class="form-group">
+                                
+                                <label><span class="glyphicon glyphicon-filter" aria-hidden="true"></span> Contraseña</label>
+                                
+                                <input type="password" class="form-control">
+                                
+                                
+                            </div>
+                            <div class="form-group">
+                                
+                                <label><span class="glyphicon glyphicon-filter" aria-hidden="true"></span>  Repite la contraseña</label>
+                                
+                                <input type="password" class="form-control">
+                                
+                                
+                            </div>
+                            <br>
+                            
+                            
+                            <button type="submit" class="btn-default btn-primary">Enviar Datos</button>
+                            
+                             <button type="reset" class="btn-default btn-primary">Limpiar formularios</button>
+                        </form>
+                </div>
+                
+            </div>
+        </div>
+
+        
+        
+       
+        
+
+        <script src="js/jquery.js"></script>
+        <script src="js/bootstrap.min.js"></script>
+        <footer class="text-center">
+        <div class="conteiner">
+                 
+                    
+                    <p> 2019-<span class="glyphicon glyphicon-copyright-mark" aria-hidden="true"></span>- Todos los derechos reservados</p>
+                    
+                    
+                </div>
+        </footer>
+    </body>
+
+</html>
